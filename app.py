@@ -3,7 +3,7 @@ import logging
 import psutil
 import os
 
-# Configure logging :D
+# Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 

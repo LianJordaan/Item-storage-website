@@ -11,7 +11,7 @@ UPLOAD_RECORD_FILE = './upload_record.txt'
 @app.route('/', methods=['GET'])
 def example():
     try:
-        return "Hello World!"
+        return "Hello, World!"
     except Exception as e:
         print(f"Error: {e}")
         return "Internal Server Error"
